@@ -16,10 +16,10 @@ for marca, posicion in zip(marcas, 1.2 * puntos):
 
 a = int(input("Dame un entero que indica una 'hora': "))
 b = int(input("Dame un entero que indica una 'hora': "))
-index_de_a = marcas.index(a)
-index_de_b = marcas.index(b)
+# index_de_a = marcas.index(a)
+# index_de_b = marcas.index(b)
 suma = (a+b)%12
-index_de_suma = marcas.index(suma)
+# index_de_suma = marcas.index(suma)
 for num, color in zip([a, b, suma], ['green', 'green', 'yellow']):
     k = marcas.index(num)
     ax.plot([0, 0.9 * puntos[k][0]], [0, 0.9 * puntos[k][1]], linewidth=5, color=color)
