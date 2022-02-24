@@ -1,0 +1,90 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{pstricks}
+\usepackage{graphicx}
+\usefonttheme[onlymath]{serif}
+
+%\usecolortheme{owl}
+
+\begin{document}
+
+\begin{frame}
+
+  \begin{center}
+  {\blue $\mathbb{Z}$:} Enteros
+  \end{center}
+
+  {\blue $\mathbb{Z}$} es un \textit{anillo conmutativo con $1$}, es decir, tiene {\blue suma} y {\blue producto} tales que:\\
+
+
+  \begin{center}
+
+    \begin{tabular}{c|c}
+      \begin{minipage}{5cm}
+        {\blue suma} \\
+            \begin{enumerate}
+              \item {\blue $(a+b)+c = a+(b+c)$}  para todo $ a,b,c \in \mathbb{Z}$
+              \item Existe $0 \in \mathbb{Z}$ tal que {\blue $a+0=0+a=a$}  para todo $a \in \mathbb{Z}$
+              \item Si $a \in \mathbb{Z}$, existe $-a \in \mathbb{Z}$ tal que {\blue $a+(-a)= 0$}
+              \item {\blue $a+b=b+a$}  para todo $a, b\in \mathbb{Z}$
+            \end{enumerate}
+      \end{minipage}
+      &
+      \begin{minipage}{5cm}
+            {\blue producto} \\
+            \begin{enumerate}
+              \item {\blue $(a\cdot b)\cdot c = a\cdot (b\cdot c)$}  para todo $ a,b,c \in \mathbb{Z}$
+              \item Existe $1 \in \mathbb{Z}$ tal que {\blue $a\cdot 1=1\cdot a=a$}  para todo $a \in \mathbb{Z}$
+              \item {\blue $a\cdot b=b\cdot a$}  para todo $a, b\in \mathbb{Z}$
+            \end{enumerate}
+      \end{minipage}
+    \end{tabular}
+  \end{center}
+
+  \begin{center}
+  Tambi\'en {\blue $a \cdot (b+c) = a\cdot b + a \cdot c$ } para todo $a, b\in \mathbb{Z}$
+  \end{center}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+  \begin{center}
+    \begin{tabular}{c|c}
+      \begin{minipage}{5cm}
+        \begin{center}
+          {\blue Propiedades} \\
+        \end{center}
+
+        \begin{enumerate}
+          \item {\blue $a\cdot 0 =0 $}, para todo $a\in \mathbb{Z}$
+          \item {\blue $(-1) \cdot a = -a$}, para todo $a\in \mathbb{Z}$
+          \item {\blue $a(-b) = -(ab) = (-a)b$}, para todo $a, b\in \mathbb{Z}$
+          \item {\blue $(-a)(-b) = ab$}, para todo $a, b\in \mathbb{Z}$
+        \end{enumerate}
+
+      \end{minipage}
+      &
+      \begin{minipage}{5cm}
+        \begin{center}
+          {\blue Dominio Entero}
+        \end{center} \\
+
+        \begin{enumerate}
+          \item {\blue $a\cdot b = 0$ } en $\mathbb{Z}$,  implica {\blue $a=0$ o $b=0$} \\
+          Equivalente a: \\
+          \item {\blue $a\cdot b = a\cdot c, \quad a \neq 0$ }  en $\mathbb{Z}$, implica {\blue $b=c$ }
+        \end{enumerate}
+      \end{minipage}
+
+    \end{tabular}
+  \end{center}
+\end{frame}
+
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
